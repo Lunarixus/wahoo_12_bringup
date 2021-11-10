@@ -191,6 +191,11 @@
 /vendor/bin/hw/android\.hardware\.gatekeeper@1\.0-service-qti        u:object_r:hal_gatekeeper_qti_exec:s0
 /vendor/bin/hw/android\.hardware\.gnss@1\.0-service-qti              u:object_r:hal_gnss_qti_exec:s0
 
+# Power and thermal (extracted from hardware/google/pixel-sepolicy)
+/vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.pixel                     u:object_r:hal_thermal_default_exec:s0
+/vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                 u:object_r:hal_power_default_exec:s0
+/vendor/bin/hw/android\.hardware\.power@1\.3-service\.pixel-libperfmgr            u:object_r:hal_power_default_exec:s0
+
 ###############################################
 # same-process HAL files and their dependencies
 #
